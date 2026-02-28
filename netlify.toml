@@ -1,12 +1,7 @@
-# Netlify configuration
-build:
-  publish: /
-  command: ""
-
 [build]
+  command = ""
   publish = "/"
 
-# Redirect all requests to index.html for SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
