@@ -1,0 +1,13 @@
+# Netlify configuration
+build:
+  publish: /
+  command: ""
+
+[build]
+  publish = "/"
+
+# Redirect all requests to index.html for SPA
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
